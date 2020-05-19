@@ -1,6 +1,6 @@
 {
   "name": "ws-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a websocket vue component",
   "main": "lib/ws-vue.common.js",
   "keywords": ["websocket", "vue"],

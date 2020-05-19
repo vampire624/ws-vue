@@ -1,6 +1,11 @@
-# vue-websocket 组件
+# ws-vue 组件
 
-Websocket vue 组件，封装了原生 Websocket 的方法和事件。
+`vue` 的 `Websocket` 组件，封装了原生 `Websocket` 的方法和事件。
+
+## install
+```bash
+npm i ws-vue -S
+```
 
 ## use
 ```html
@@ -21,7 +26,7 @@ methods: {
 ```
 
 ## Props
- **uri**：传入的 websocket 地址，开发模式下需要传入完整路径，生产模式下打包只需要传入 `/context/xxx` 即可。 
+ **uri**：传入的 `websocket` 地址，开发模式下需要传入完整路径，生产模式下打包只需要传入 `/context/xxx` 即可。 
 
 ## Events
  **websocket-onopen**：`websocket` 连接成功触发的自定义事件
