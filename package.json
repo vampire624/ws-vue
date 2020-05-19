@@ -1,0 +1,28 @@
+{
+  "name": "ws-vue",
+  "version": "0.1.0",
+  "description": "a websocket vue component",
+  "main": "lib/ws-vue.common.js",
+  "keywords": ["websocket", "vue"],
+  "author": "vampire624",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name ws-vue --dest lib packages/ws-vue/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
