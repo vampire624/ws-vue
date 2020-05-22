@@ -1,9 +1,12 @@
 {
   "name": "ws-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a websocket vue component",
   "main": "lib/ws-vue.common.js",
-  "keywords": ["websocket", "vue"],
+  "keywords": [
+    "websocket",
+    "vue"
+  ],
   "author": "vampire624",
   "license": "MIT",
   "scripts": {
