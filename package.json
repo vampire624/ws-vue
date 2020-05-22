@@ -7,8 +7,6 @@
   "author": "vampire624",
   "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib --name ws-vue --dest lib packages/ws-vue/index.js"
   },
   "dependencies": {
