@@ -38,12 +38,10 @@ export default {
     */
     initWebsocket () {
       if (!this.uri) return undefined
-      let wsUri = `${this.uri}`
-      process.env.NODE_ENV === 'production' && (wsUri = `ws${location.protocol === 'https:' ? 's' : ''}://${location.host}${this.uri}`)
       if (!WebSocket) {
         console.log('您当前的浏览器不支持实时数据，建议使用最新版Chrome浏览器')
       } else {
-        this.websock = new WebSocket(wsUri)
+        this.websock = new WebSocket(this.uri)
         this.websock.onmessage = this.websocketOnMessage
         this.websock.onopen = this.websocketOnOpen
         this.websock.onerror = this.websocketOnError

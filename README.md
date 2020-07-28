@@ -32,7 +32,7 @@ methods: {
 ```
 
 ## Props
- **uri**：传入的 `websocket` 地址，开发模式下需要传入完整路径，生产模式下打包只需要传入 `/context/xxx` 即可 
+ **uri**：传入的 `websocket` 的完整地址，包括协议、主机、端口与路径（ws://localhost:8080/websocket/xxx）
 
 ## Events
  **websocket-onopen**：`websocket` 连接成功触发的自定义事件
